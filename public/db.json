@@ -1,0 +1,754 @@
+{
+  "empresas": [
+    {
+      "razao_social": "Transportadora Velocidade Expressa Ltda",
+      "nome_fantasia": "Velocidade Expressa",
+      "CNPJ": "42078590000115",
+      "IE": "12345678-5",
+      "data_de_abertura": "18/12/2012",
+      "numero_de_funcionarios": 35,
+      "telefone": "(12) 5555-9876",
+      "celular": "(12) 98765-5678",
+      "site": "www.velocidadeexpressa.com.br",
+      "email": "contato@velocidadeexpressa.com.br",
+      "socios": [
+        {
+          "nome": "Marcos Santos",
+          "CPF": "12345678967",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Ana Oliveira",
+          "CPF": "98765432165",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-987",
+      "endereco": "Avenida da Logística, 654",
+      "bairro": "Transporte Central",
+      "cidade": "São José dos Campos",
+      "estado": "SP",
+      "ID": 1
+    },
+    {
+      "razao_social": "Construtora Obras & Projetos Ltda",
+      "nome_fantasia": "Obras & Projetos",
+      "CNPJ": "98693490000153",
+      "IE": "12345678-6",
+      "data_de_abertura": "09/07/2015",
+      "numero_de_funcionarios": 50,
+      "telefone": "(22) 5555-8765",
+      "celular": "(22) 98765-4321",
+      "site": "www.obraseprojetos.com.br",
+      "email": "contato@obraseprojetos.com.br",
+      "socios": [
+        {
+          "nome": "Luisa Silva",
+          "CPF": "12345678978",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Mário Oliveira",
+          "CPF": "98765432176",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "54321-654",
+      "endereco": "Rua das Construções, 432",
+      "bairro": "Construção Ville",
+      "cidade": "Campos dos Goytacazes",
+      "estado": "RJ",
+      "ID": 2
+    },
+    {
+      "razao_social": "Agência de Marketing Digital MarkUp Ltda",
+      "nome_fantasia": "MarkUp",
+      "CNPJ": "44255062000110",
+      "IE": "12345678-7",
+      "data_de_abertura": "25/01/2017",
+      "numero_de_funcionarios": 20,
+      "telefone": "(42) 5555-7654",
+      "celular": "(42) 98765-1098",
+      "site": "www.markup.com.br",
+      "email": "contato@markup.com.br",
+      "socios": [
+        {
+          "nome": "Rafaela Santos",
+          "CPF": "98765432187",
+          "participacao": "55%"
+        },
+        {
+          "nome": "André Oliveira",
+          "CPF": "12345678989",
+          "participacao": "45%"
+        }
+      ],
+      "CEP": "65432-765",
+      "endereco": "Avenida do Marketing, 876",
+      "bairro": "Publicidade Central",
+      "cidade": "Ponta Grossa",
+      "estado": "PR",
+      "ID": 3
+    },
+    {
+      "razao_social": "Clínica Médica Saúde Total Ltda",
+      "nome_fantasia": "Saúde Total",
+      "CNPJ": "03673606000186",
+      "IE": "12345678-8",
+      "data_de_abertura": "14/03/2014",
+      "numero_de_funcionarios": 15,
+      "telefone": "(61) 5555-4321",
+      "celular": "(61) 98765-8765",
+      "site": "www.saudetotal.com.br",
+      "email": "contato@saudetotal.com.br",
+      "socios": [
+        {
+          "nome": "Luiz Silva",
+          "CPF": "12345678990",
+          "participacao": "65%"
+        },
+        {
+          "nome": "Carolina Santos",
+          "CPF": "98765432198",
+          "participacao": "35%"
+        }
+      ],
+      "CEP": "76543-432",
+      "endereco": "Rua da Saúde, 345",
+      "bairro": "Bem-Estar Central",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "ID": 4
+    },
+    {
+      "razao_social": "Desenvolvimento de Software TechSolutions Ltda",
+      "nome_fantasia": "TechSolutions",
+      "CNPJ": "07363667000106",
+      "IE": "12345678-9",
+      "data_de_abertura": "08/09/2016",
+      "numero_de_funcionarios": 28,
+      "telefone": "(32) 5555-4321",
+      "celular": "(32) 98765-7654",
+      "site": "www.techsolutions.com.br",
+      "email": "contato@techsolutions.com.br",
+      "socios": [
+        {
+          "nome": "Rodrigo Silva",
+          "CPF": "98765432109",
+          "participacao": "55%"
+        },
+        {
+          "nome": "Patricia Oliveira",
+          "CPF": "12345678901",
+          "participacao": "45%"
+        }
+      ],
+      "CEP": "54321-321",
+      "endereco": "Avenida da Tecnologia, 654",
+      "bairro": "Inovação Ville",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "ID": 5
+    },
+    {
+      "razao_social": "Comércio de Eletrônicos e Informática TecnoShop Ltda",
+      "nome_fantasia": "TecnoShop",
+      "CNPJ": "73374853000167",
+      "IE": "12345678-0",
+      "data_de_abertura": "22/10/2013",
+      "numero_de_funcionarios": 25,
+      "telefone": "(35) 5555-9876",
+      "celular": "(35) 98765-5432",
+      "site": "www.tecnoshop.com.br",
+      "email": "contato@tecnoshop.com.br",
+      "socios": [
+        {
+          "nome": "Eduardo Silva",
+          "CPF": "12345678911",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Isabel Oliveira",
+          "CPF": "98765432110",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "54321-543",
+      "endereco": "Avenida da Tecnologia, 432",
+      "bairro": "Tecnologia Central",
+      "cidade": "Varginha",
+      "estado": "MG",
+      "ID": 6
+    },
+    {
+      "razao_social": "Restaurante Sabor & Arte Ltda",
+      "nome_fantasia": "Sabor & Arte",
+      "CNPJ": "38663657000101",
+      "IE": "12345678-1",
+      "data_de_abertura": "03/06/2011",
+      "numero_de_funcionarios": 18,
+      "telefone": "(85) 5555-1098",
+      "celular": "(85) 98765-3210",
+      "site": "www.saborearte.com.br",
+      "email": "contato@saborearte.com.br",
+      "socios": [
+        {
+          "nome": "Roberto Santos",
+          "CPF": "98765432112",
+          "participacao": "55%"
+        },
+        {
+          "nome": "Lúcia Oliveira",
+          "CPF": "12345678913",
+          "participacao": "45%"
+        }
+      ],
+      "CEP": "76543-321",
+      "endereco": "Rua dos Sabores, 765",
+      "bairro": "Gastronomia Ville",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "ID": 7
+    },
+    {
+      "razao_social": "Loja de Moda FashionWave Ltda",
+      "nome_fantasia": "FashionWave",
+      "CNPJ": "80831383000189",
+      "IE": "12345678-2",
+      "data_de_abertura": "11/05/2014",
+      "numero_de_funcionarios": 30,
+      "telefone": "(43) 5555-3210",
+      "celular": "(43) 98765-8765",
+      "site": "www.fashionwave.com.br",
+      "email": "contato@fashionwave.com.br",
+      "socios": [
+        {
+          "nome": "Amanda Silva",
+          "CPF": "12345678914",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Lucas Oliveira",
+          "CPF": "98765432113",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "54321-654",
+      "endereco": "Avenida da Moda, 543",
+      "bairro": "Moda Central",
+      "cidade": "Londrina",
+      "estado": "PR",
+      "ID": 8
+    },
+    {
+      "razao_social": "Oficina Mecânica AutoMaster Ltda",
+      "nome_fantasia": "AutoMaster",
+      "CNPJ": "34530099000155",
+      "IE": "12345678-3",
+      "data_de_abertura": "05/07/2016",
+      "numero_de_funcionarios": 22,
+      "telefone": "(54) 5555-8765",
+      "celular": "(54) 98765-4321",
+      "site": "www.automaster.com.br",
+      "email": "contato@automaster.com.br",
+      "socios": [
+        {
+          "nome": "Fernando Santos",
+          "CPF": "98765432115",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Sandra Oliveira",
+          "CPF": "12345678915",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-765",
+      "endereco": "Rua das Máquinas, 321",
+      "bairro": "Mecânica Ville",
+      "cidade": "Caxias do Sul",
+      "estado": "RS",
+      "ID": 9
+    },
+    {
+      "razao_social": "Loja de Eletrônicos TechGadgets Ltda",
+      "nome_fantasia": "TechGadgets",
+      "CNPJ": "94163017000103",
+      "IE": "12345678-4",
+      "data_de_abertura": "12/04/2013",
+      "numero_de_funcionarios": 28,
+      "telefone": "(68) 5555-4321",
+      "celular": "(68) 98765-7654",
+      "site": "www.techgadgets.com.br",
+      "email": "contato@techgadgets.com.br",
+      "socios": [
+        {
+          "nome": "Marcelo Silva",
+          "CPF": "98765432116",
+          "participacao": "65%"
+        },
+        {
+          "nome": "Bianca Oliveira",
+          "CPF": "12345678916",
+          "participacao": "35%"
+        }
+      ],
+      "CEP": "54321-432",
+      "endereco": "Avenida da Tecnologia, 876",
+      "bairro": "Tecnologia Ville",
+      "cidade": "Rio Branco",
+      "estado": "AC",
+      "ID": 10
+    },
+    {
+      "razao_social": "Consultoria Empresarial Strategix Ltda",
+      "nome_fantasia": "Strategix",
+      "CNPJ": "33328341000140",
+      "IE": "12345678-5",
+      "data_de_abertura": "14/08/2014",
+      "numero_de_funcionarios": 17,
+      "telefone": "(21) 5555-7654",
+      "celular": "(21) 98765-4321",
+      "site": "www.strategix.com.br",
+      "email": "contato@strategix.com.br",
+      "socios": [
+        {
+          "nome": "Cristina Silva",
+          "CPF": "98765432117",
+          "participacao": "50%"
+        },
+        {
+          "nome": "Ricardo Oliveira",
+          "CPF": "12345678917",
+          "participacao": "50%"
+        }
+      ],
+      "CEP": "76543-765",
+      "endereco": "Avenida da Consultoria, 654",
+      "bairro": "Consultoria Central",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "ID": 11
+    },
+    {
+      "razao_social": "Agência de Viagens TravelGlobe Ltda",
+      "nome_fantasia": "TravelGlobe",
+      "CNPJ": "18786534000150",
+      "IE": "12345678-6",
+      "data_de_abertura": "02/03/2013",
+      "numero_de_funcionarios": 12,
+      "telefone": "(82) 5555-4321",
+      "celular": "(82) 98765-9876",
+      "site": "www.travelglobe.com.br",
+      "email": "contato@travelglobe.com.br",
+      "socios": [
+        {
+          "nome": "Fernanda Silva",
+          "CPF": "98765432118",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Gustavo Oliveira",
+          "CPF": "12345678918",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "54321-876",
+      "endereco": "Rua das Viagens, 321",
+      "bairro": "Turismo Ville",
+      "cidade": "Maceió",
+      "estado": "AL",
+      "ID": 12
+    },
+    {
+      "razao_social": "Escritório de Advocacia Legal Solutions Ltda",
+      "nome_fantasia": "Legal Solutions",
+      "CNPJ": "23207065000108",
+      "IE": "12345678-7",
+      "data_de_abertura": "07/12/2012",
+      "numero_de_funcionarios": 20,
+      "telefone": "(71) 5555-9876",
+      "celular": "(71) 98765-3210",
+      "site": "www.legalsolutions.com.br",
+      "email": "contato@legalsolutions.com.br",
+      "socios": [
+        {
+          "nome": "José Silva",
+          "CPF": "12345678919",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Mariana Oliveira",
+          "CPF": "98765432119",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-321",
+      "endereco": "Avenida do Direito, 765",
+      "bairro": "Jurídico Central",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "ID": 13
+    },
+    {
+      "razao_social": "Escola de Idiomas LanguageMasters Ltda",
+      "nome_fantasia": "LanguageMasters",
+      "CNPJ": "99911843000107",
+      "IE": "12345678-8",
+      "data_de_abertura": "19/05/2016",
+      "numero_de_funcionarios": 15,
+      "telefone": "(62) 5555-3210",
+      "celular": "(62) 98765-8765",
+      "site": "www.languagemasters.com.br",
+      "email": "contato@languagemasters.com.br",
+      "socios": [
+        {
+          "nome": "André Silva",
+          "CPF": "98765432120",
+          "participacao": "55%"
+        },
+        {
+          "nome": "Carla Oliveira",
+          "CPF": "12345678920",
+          "participacao": "45%"
+        }
+      ],
+      "CEP": "54321-654",
+      "endereco": "Rua dos Idiomas, 543",
+      "bairro": "Idiomas Ville",
+      "cidade": "Goiânia",
+      "estado": "GO",
+      "ID": 14
+    },
+    {
+      "razao_social": "Estúdio de Design CreativeVisions Ltda",
+      "nome_fantasia": "CreativeVisions",
+      "CNPJ": "47555542000194",
+      "IE": "12345678-9",
+      "data_de_abertura": "23/11/2015",
+      "numero_de_funcionarios": 25,
+      "telefone": "(97) 5555-8765",
+      "celular": "(97) 98765-4321",
+      "site": "www.creativevisions.com.br",
+      "email": "contato@creativevisions.com.br",
+      "socios": [
+        {
+          "nome": "Patricia Silva",
+          "CPF": "98765432121",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Lucas Oliveira",
+          "CPF": "12345678921",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-876",
+      "endereco": "Avenida do Design, 321",
+      "bairro": "Design Central",
+      "cidade": "Boa Vista",
+      "estado": "RR",
+      "ID": 15
+    },
+    {
+      "razao_social": "Agência de Marketing MarketPro Ltda",
+      "nome_fantasia": "MarketPro",
+      "CNPJ": "04742187000150",
+      "IE": "12345678-0",
+      "data_de_abertura": "10/09/2014",
+      "numero_de_funcionarios": 40,
+      "telefone": "(27) 5555-9876",
+      "celular": "(27) 98765-7654",
+      "site": "www.marketpro.com.br",
+      "email": "contato@marketpro.com.br",
+      "socios": [
+        {
+          "nome": "Márcio Silva",
+          "CPF": "12345678922",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Cláudia Oliveira",
+          "CPF": "98765432122",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "76543-432",
+      "endereco": "Avenida do Marketing, 876",
+      "bairro": "Marketing Central",
+      "cidade": "Vitória",
+      "estado": "ES",
+      "ID": 16
+    },
+    {
+      "razao_social": "Clínica Médica Saúde Total Ltda",
+      "nome_fantasia": "Saúde Total",
+      "CNPJ": "80844851000150",
+      "IE": "12345678-1",
+      "data_de_abertura": "08/05/2013",
+      "numero_de_funcionarios": 15,
+      "telefone": "(96) 5555-7654",
+      "celular": "(96) 98765-4321",
+      "site": "www.saude-total.com.br",
+      "email": "contato@saude-total.com.br",
+      "socios": [
+        {
+          "nome": "Paulo Silva",
+          "CPF": "98765432123",
+          "participacao": "55%"
+        },
+        {
+          "nome": "Ana Oliveira",
+          "CPF": "12345678923",
+          "participacao": "45%"
+        }
+      ],
+      "CEP": "54321-432",
+      "endereco": "Avenida da Saúde, 321",
+      "bairro": "Saúde Ville",
+      "cidade": "Macapá",
+      "estado": "AP",
+      "ID": 17
+    },
+    {
+      "razao_social": "Distribuidora de Bebidas BebaBem Ltda",
+      "nome_fantasia": "BebaBem",
+      "CNPJ": "76227870000160",
+      "IE": "12345678-2",
+      "data_de_abertura": "17/03/2015",
+      "numero_de_funcionarios": 25,
+      "telefone": "(54) 5555-4321",
+      "celular": "(54) 98765-9876",
+      "site": "www.bebabem.com.br",
+      "email": "contato@bebabem.com.br",
+      "socios": [
+        {
+          "nome": "Fernanda Silva",
+          "CPF": "98765432124",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Gustavo Oliveira",
+          "CPF": "12345678924",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-987",
+      "endereco": "Avenida das Bebidas, 543",
+      "bairro": "Bebidas Central",
+      "cidade": "Caxias do Sul",
+      "estado": "RS",
+      "ID": 18
+    },
+    {
+      "razao_social": "Salão de Beleza BelezaPlus Ltda",
+      "nome_fantasia": "BelezaPlus",
+      "CNPJ": "00822508000175",
+      "IE": "12345678-3",
+      "data_de_abertura": "05/12/2016",
+      "numero_de_funcionarios": 10,
+      "telefone": "(85) 5555-3210",
+      "celular": "(85) 98765-8765",
+      "site": "www.beleza-plus.com.br",
+      "email": "contato@beleza-plus.com.br",
+      "socios": [
+        {
+          "nome": "André Silva",
+          "CPF": "98765432125",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Carla Oliveira",
+          "CPF": "12345678925",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "54321-654",
+      "endereco": "Rua da Beleza, 654",
+      "bairro": "Beleza Central",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "ID": 19
+    },
+    {
+      "razao_social": "Oficina Mecânica AutoPro Ltda",
+      "nome_fantasia": "AutoPro",
+      "CNPJ": "86658323000192",
+      "IE": "12345678-4",
+      "data_de_abertura": "22/04/2013",
+      "numero_de_funcionarios": 18,
+      "telefone": "(62) 5555-9876",
+      "celular": "(62) 98765-3210",
+      "site": "www.autopro.com.br",
+      "email": "contato@autopro.com.br",
+      "socios": [
+        {
+          "nome": "José Silva",
+          "CPF": "12345678926",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Mariana Oliveira",
+          "CPF": "98765432126",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-321",
+      "endereco": "Avenida da Mecânica, 765",
+      "bairro": "Mecânica Central",
+      "cidade": "Goiânia",
+      "estado": "GO",
+      "ID": 20
+    },
+    {
+      "razao_social": "Padaria e Confeitaria Delícias da Vila Ltda",
+      "nome_fantasia": "Delícias da Vila",
+      "CNPJ": "15956307000138",
+      "IE": "12345678-5",
+      "data_de_abertura": "11/02/2011",
+      "numero_de_funcionarios": 12,
+      "telefone": "(11) 5555-7654",
+      "celular": "(11) 98765-4321",
+      "site": "www.deliciasdavila.com.br",
+      "email": "contato@deliciasdavila.com.br",
+      "socios": [
+        {
+          "nome": "Lucas Silva",
+          "CPF": "98765432127",
+          "participacao": "60%"
+        },
+        {
+          "nome": "Maria Oliveira",
+          "CPF": "12345678927",
+          "participacao": "40%"
+        }
+      ],
+      "CEP": "76543-987",
+      "endereco": "Rua das Delícias, 123",
+      "bairro": "Vila Gourmet",
+      "cidade": "São Paulo",
+      "Estado": "SP",
+      "ID": 21
+    },
+    {
+      "razao_social": "Loja de Eletrônicos TechZone Ltda",
+      "nome_fantasia": "TechZone",
+      "CNPJ": "26968255000136",
+      "IE": "12345678-6",
+      "data_de_abertura": "28/07/2012",
+      "numero_de_funcionarios": 18,
+      "telefone": "(92) 5555-4321",
+      "celular": "(92) 98765-9876",
+      "site": "www.techzone.com.br",
+      "email": "contato@techzone.com.br",
+      "socios": [
+        {
+          "nome": "Carlos Silva",
+          "CPF": "98765432128",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Patrícia Oliveira",
+          "CPF": "12345678928",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "54321-654",
+      "endereco": "Avenida da Tecnologia, 456",
+      "bairro": "Tecnologia Central",
+      "cidade": "Manaus",
+      "Estado": "AM",
+      "ID": 22
+    },
+    {
+      "razao_social": "Consultório Odontológico Sorriso Perfeito Ltda",
+      "nome_fantasia": "Sorriso Perfeito",
+      "CNPJ": "74239689000148",
+      "IE": "12345678-7",
+      "data_de_abertura": "03/11/2015",
+      "numero_de_funcionarios": 5,
+      "telefone": "(51) 5555-9876",
+      "celular": "(51) 98765-3210",
+      "site": "www.sorrisoperfeito.com.br",
+      "email": "contato@sorrisoperfeito.com.br",
+      "socios": [
+        {
+          "nome": "Rafael Silva",
+          "CPF": "12345678929",
+          "participacao": "80%"
+        },
+        {
+          "nome": "Amanda Oliveira",
+          "CPF": "98765432129",
+          "participacao": "20%"
+        }
+      ],
+      "CEP": "76543-321",
+      "endereco": "Rua dos Dentistas, 765",
+      "bairro": "Odontologia Central",
+      "cidade": "Porto Alegre",
+      "Estado": "RS",
+      "ID": 23
+    },
+    {
+      "razao_social": "Loja de Roupas FashionStyle Ltda",
+      "nome_fantasia": "FashionStyle",
+      "CNPJ": "31390561000178",
+      "IE": "12345678-8",
+      "data_de_abertura": "19/04/2014",
+      "numero_de_funcionarios": 14,
+      "telefone": "(47) 5555-3210",
+      "celular": "(47) 98765-8765",
+      "site": "www.fashionstyle.com.br",
+      "email": "contato@fashionstyle.com.br",
+      "socios": [
+        {
+          "nome": "Juliana Silva",
+          "CPF": "98765432130",
+          "participacao": "50%"
+        },
+        {
+          "nome": "Bruno Oliveira",
+          "CPF": "12345678930",
+          "participacao": "50%"
+        }
+      ],
+      "CEP": "54321-543",
+      "endereco": "Avenida da Moda, 321",
+      "bairro": "Moda Ville",
+      "cidade": "Joinville",
+      "Estado": "SC",
+      "ID": 24
+    },
+    {
+      "razao_social": "Supermercado Econômico Ltda",
+      "nome_fantasia": "Econômico",
+      "CNPJ": "16319770000131",
+      "IE": "12345678-9",
+      "data_de_abertura": "14/03/2013",
+      "numero_de_funcionarios": 30,
+      "telefone": "(61) 5555-9876",
+      "celular": "(61) 98765-3210",
+      "site": "www.economico.com.br",
+      "email": "contato@economico.com.br",
+      "socios": [
+        {
+          "nome": "Marcos Silva",
+          "CPF": "12345678931",
+          "participacao": "70%"
+        },
+        {
+          "nome": "Larissa Oliveira",
+          "CPF": "98765432131",
+          "participacao": "30%"
+        }
+      ],
+      "CEP": "76543-876",
+      "endereco": "Avenida dos Supermercados, 987",
+      "bairro": "Supermercado Central",
+      "cidade": "Brasília",
+      "Estado": "DF",
+      "ID": 25
+    }
+  ]
+}
