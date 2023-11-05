@@ -163,44 +163,44 @@ export function TaxRecovery() {
         </div>
       </main>
       <aside
-        className={`fixed top-0 ${
-          showCustomers ? "left-[calc(100%-400px)]" : "left-[100%]"
-        } duration-200 bg-white text-gray-600 h-full w-[400px] p-4`}
+  className={`fixed top-0 ${
+    showCustomers ? "left-[calc(100%-400px)]" : "left-[100%]"
+  } duration-200 bg-white text-gray-600 h-screen w-[400px] p-4`}
+>
+  <header className="flex items-center mb-[40px]">
+    <FiX
+      className="w-[35px] h-[35px] cursor-pointer mr-[10px]"
+      onClick={() => setShowCustomers(false)}
+    />
+    <h2 className="text-[1.75rem]">Clientes</h2>
+  </header>
+  <ul className="custom-scrollbar rounded-xl overflow-auto h-[calc(100%-5rem)]">
+    {customers.map((customer: EmpresasResponse) => (
+      <li
+        key={customer.ID}
+        className="py-[24px] px-[10px] hover:bg-blue-100 cursor-pointer"
+        onClick={() => {
+          setSelectedCustomer(customer);
+          setShowCustomers(false);
+        }}
       >
-        <header className="flex items-center mb-[40px]">
-          <FiX
-            className="w-[35px] h-[35px] cursor-pointer mr-[10px]"
-            onClick={() => setShowCustomers(false)}
+        <div className="flex items-center">
+          <img
+            src="assets/images/client.jpeg"
+            alt="Imagem do cliente"
+            className="w-[40px] h-[40px] border border-2 mr-[10px]"
           />
-          <h2 className="text-[1.75rem]">Clientes</h2>
-        </header>
-        <ul className="overflow-auto h-full custom-scrollbar rounded-xl">
-          {customers.map((customer: EmpresasResponse) => (
-            <li
-              key={customer.ID}
-              className="py-[24px] px-[10px] hover:bg-blue-100 cursor-pointer"
-              onClick={() => {
-                setSelectedCustomer(customer);
-                setShowCustomers(false);
-              }}
-            >
-              <div className="flex items-center">
-                <img
-                  src="assets/images/client.jpeg"
-                  alt="Imagem do cliente"
-                  className="w-[40px] h-[40px] border border-2 mr-[10px]"
-                />
-                <div className="flex flex-col w-full">
-                  <p className="font-[500] text-gray-600">
-                    {customer.razao_social}
-                  </p>
-                  <p className="text-gray-600">{customer.CNPJ}</p>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </aside>
+          <div className="flex flex-col w-full">
+            <p className="font-[500] text-gray-600">
+              {customer.razao_social}
+            </p>
+            <p className="text-gray-600">{customer.CNPJ}</p>
+          </div>
+        </div>
+      </li>
+    ))}
+  </ul>
+</aside>
     </>
   );
 }
