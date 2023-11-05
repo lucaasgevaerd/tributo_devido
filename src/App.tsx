@@ -12,18 +12,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 function App() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const location = useLocation();
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   const [isOpen, setIsOpen] = useState(false);
 

@@ -8,7 +8,6 @@ export function TaxRecovery() {
   const [showCustomers, setShowCustomers] = useState<boolean>(false);
   const [customers, setCustomers] = useState<EmpresasResponse[]>([]);
 
-  const [searchValue, setSearchValue] = useState("");
   const [searchResults, setSearchResults] = useState<EmpresasResponse[]>([]);
 
   const [selectedCustomer, setSelectedCustomer] =
@@ -19,7 +18,6 @@ export function TaxRecovery() {
   function handleSearchInput(event: ChangeEvent<HTMLInputElement>) {
     setInputValue(event.target.value);
     const { value } = event.target;
-    setSearchValue(value);
 
     if (event.target.value === "") {
       setSelectedCustomer(null);
