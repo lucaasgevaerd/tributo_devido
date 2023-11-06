@@ -1,5 +1,5 @@
 import { FiSearch, FiX } from "react-icons/fi";
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { getBaseURL } from "../../utils/getBaseURL";
 import axios, { AxiosResponse } from "axios";
 import { EmpresasResponse } from "../../types/empresasResponse";
@@ -7,6 +7,7 @@ import { EmpresasResponse } from "../../types/empresasResponse";
 export function TaxRecovery() {
   const [showCustomers, setShowCustomers] = useState<boolean>(false);
   const [customers, setCustomers] = useState<EmpresasResponse[]>([]);
+  const asideRef = useRef<HTMLDivElement>(null)
 
   const [searchResults, setSearchResults] = useState<EmpresasResponse[]>([]);
 
@@ -22,8 +23,6 @@ export function TaxRecovery() {
     if (event.target.value === "") {
       setSelectedCustomer(null);
     }
-
-    // Realizar a pesquisa aqui com base no valor atual do input
     const results = performSearch(value, customers);
     setSearchResults(results);
   }
@@ -42,10 +41,8 @@ export function TaxRecovery() {
     }
 
     if (/^\d+$/.test(value)) {
-      // Pesquisa por CNPJ (somente números)
       return customers.filter((customer) => customer.CNPJ.startsWith(value));
     } else {
-      // Pesquisa por nome_fantasia ou razao_social (ignorando maiúsculas/minúsculas)
       const searchValue = value.toLowerCase();
       return customers.filter(
         (customer) =>
@@ -74,6 +71,33 @@ export function TaxRecovery() {
     );
     return cnpj;
   }
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        asideRef.current &&
+        !asideRef.current.contains(event.target as Node)
+      ) {
+        setShowCustomers(false)
+      }
+    }
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.keyCode === 27) {
+        setShowCustomers(false)
+      }
+    }
+    if (showCustomers) {
+      document.addEventListener('mousedown', handleClickOutside)
+      window.addEventListener('keydown', handleKeyDown)
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside)
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [showCustomers])
 
   return (
     <>
@@ -166,6 +190,7 @@ export function TaxRecovery() {
   className={`fixed top-0 ${
     showCustomers ? "left-[calc(100%-400px)]" : "left-[100%]"
   } duration-200 bg-white text-gray-600 h-screen w-[400px] p-4`}
+  ref={asideRef}
 >
   <header className="flex items-center mb-[40px]">
     <FiX
