@@ -82,7 +82,7 @@ export function TaxRecovery() {
           Recuperação de crédito
         </h1>
       </header>
-      <main className="flex w-full flex-col items-center">
+      <main className="flex w-full flex-col items-center px-4 sm:px-6">
         <h2 className="font-[500] text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] mb-4 sm:mb-6 xl:mb-8">
           Comece uma recuperação de crédito
         </h2>
